@@ -1,0 +1,41 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "call-polyfill": "nodemon ./polyfills/call.polyfill.js",
+    "apply-polyfill": "nodemon ./polyfills/apply.polyfill.js",
+    "bind-polyfill": "nodemon ./polyfills/bind.polyfill.js",
+    "map-polyfill": "nodemon ./polyfills/map.polyfill.js",
+    "filter-polyfill": "nodemon ./polyfills/filter.polyfill.js",
+    "reduce-polyfill": "nodemon ./polyfills/reduce.polyfill.js",
+    "promise-polyfill": "nodemon ./polyfills/promise.polyfill.js",
+    "memoize-implementation": "nodemon ./advanced/memoize-implementation.js",
+    "fibonacci-memoize": "nodemon ./advanced/fibonacci-memoize.js",
+    "promise-impl": "nodemon ./advanced/promise.impl.js",
+    "event-loop": "nodemon ./basics/event-loop.js",
+    "curry-function": "nodemon ./basics/curry-function.js",
+    "closure-impl": "nodemon ./basics/closure-impl.js",
+    "dsa-spiral-matrix": "nodemon ./dsa/matrix/spiral-matrix.js",
+    "dsa-doubly-linkedlist-impl": "nodemon ./dsa/linked-list/impl/doubly-linked-list.impl.js",
+    "dsa-singly-linkedlist-impl": "nodemon ./dsa/linked-list/impl/singly-linked-list.impl.js",
+    "dsa-linkedlist-find-nth-last": "nodemon ./dsa/linked-list/linkedlist-find-nth-last.js",
+    "dsa-linkedlist-middle": "nodemon ./dsa/linked-list/middle-element-linkedlist.js",
+    "dsa-linkedlist-reverse-iterative": "nodemon ./dsa/linked-list/linkedlist-reverse-iterative.js",
+    "dsa-binary-search-tree-impl": "nodemon ./dsa/binary-search-tree/impl/binary-search-tree.impl.js",
+    "dsa-bst-spiral-traversal": "nodemon ./dsa/binary-search-tree/bst-spiral-traversal.js",
+    "dsa-bst-height": "nodemon ./dsa/binary-search-tree/bst-height.js",
+    "dsa-bst-diameter": "nodemon ./dsa/binary-search-tree/bst-diameter.js",
+    "dsa-graph-airports": "nodemon ./dsa/graphs/airports-connectivity.js",
+    "dsa-trie-impl": "nodemon ./dsa/trie/impl/trie.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "treeify": "^1.1.0"
+  }
+}
